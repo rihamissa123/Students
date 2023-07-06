@@ -1,5 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student List</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
 <body>
-    <script src="index.js"></script>
-    <button onclick="GetAllStudents()">Retrieve students</button>
-    <ul id="students"></ul>
+  <table id="studentTable">
+    <tr>
+      <th>Name</th>
+      <th>ID</th>
+    </tr>
+  </table>
+
+  <script src="index.js"></script>
 </body>
+</html>
