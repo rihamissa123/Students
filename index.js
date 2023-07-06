@@ -1,6 +1,6 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    fetch('http://localhost:3030/getAllStudents')
+    fetch('https://test20230706-1x06.onrender.com')
       .then(response => response.json())
       .then(data => {
         const table = document.getElementById('studentTable');
