@@ -1,6 +1,6 @@
 function GetAllStudents(){
 
-fetch("http://localhost:3000/getAllStudents")
+fetch("https://test20230706-1x06.onrender.com/getAllStudents")
     .then(response=>response.json())
     .then(json=>{
         let studentsul=document.getElementById("students");
